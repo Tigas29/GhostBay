@@ -1,3 +1,238 @@
-body{
-    background-color: black;
-}
+            /* css reset */
+            
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                text-decoration: none;
+                box-sizing: border-box;
+            }
+            
+            @font-face {
+                font-family: Riviera;
+                src: url(/fonts/Riviera.otf);
+            }
+            
+            main {
+                height: auto;
+                width: 100%;
+            }
+            /* cabeçalho */
+            
+            #cabecalho {
+                width: 100%;
+                height: 0px;
+            }
+            
+            .logo-home {
+                margin-top: 10px;
+                margin-left: 1%;
+            }
+            
+            .ghost-name {
+                position: relative;
+                font-family: 'Riviera';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 29px;
+                text-align: center;
+                letter-spacing: 0.52em;
+                color: #171B27;
+                margin: 0 auto;
+                bottom: 95px;
+            }
+            
+            .artistas {
+                font-family: 'Baloo 2';
+                float: right;
+                text-align: center;
+                bottom: 115px;
+                right: 7%;
+                position: relative;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #000000;
+                font-family: 'Baloo Tammudu 2';
+            }
+            
+            .inicio {
+                font-family: 'Baloo 2';
+                float: right;
+                text-align: center;
+                bottom: 115px;
+                position: relative;
+                font-style: normal;
+                right: 5%;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #000000;
+                font-family: 'Baloo Tammudu 2';
+            }
+            
+            .texto-button {
+                font-family: 'Baloo Tammudu 2';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 33px;
+                color: #171B27;
+            }
+            
+            .botao-carteira {
+                float: right;
+                position: relative;
+                bottom: 120px;
+                right: 3%;
+                width: 84.07px;
+                height: 24.06px;
+                background: linear-gradient(90deg, #B629F2 -67.86%, #D0D5F2 102.89%);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+            }
+            /* CAPA */
+            
+            #foto-capa {
+                background-image: url("/imagens/sombra\ -capa.png");
+                background-color: #D0D5F2;
+                width: 100%;
+                height: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .textotop {
+                padding-top: 100px;
+                font-family: lato;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 36px;
+                text-align: center;
+                color: #09031F;
+                margin: 0 auto;
+            }
+            
+            .titulo-meio {
+                font-family: 'Azonix';
+                width: 370.11px;
+                height: 91.04px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 50px;
+                text-align: center;
+                color: #09031F;
+                margin: auto;
+            }
+            
+            .fundo-da-caveira {
+                padding-top: 50px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            /* NFT PAGE */
+            
+            #nfts-part {
+                position: relative;
+                width: 100%;
+                height: 626.05px;
+                background: linear-gradient(180deg, #161A26 95.83%, rgba(22, 26, 38, 0.625156) 99.99%, #D0D5F2 100%);
+            }
+            
+            .tittle-nft {
+                padding-top: 150px;
+                margin-left: 50px;
+                width: 171.3px;
+                height: 53.6px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 72px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            
+            .texto-nft {
+                width: 487.62px;
+                max-width: 40%;
+                margin-left: 70px;
+                height: 130.06px;
+                padding-top: 20px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+            
+            .Comprar-acesso {
+                position: relative;
+                width: 171.9px;
+                left: 70px;
+                height: 39.46px;
+                top: 50px;
+                background: linear-gradient(90deg, #161A26 -67.86%, #B629F2 102.89%);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+            }
+            
+            .acesso-button {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            
+            .imagemrobo {
+                position: relative;
+                float: right;
+                width: 696.94px;
+                height: 732.5px;
+                bottom: 400px;
+            }
+            
+            .tittle-sellers {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 60px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.05em;
+                color: #171B27;
+                padding: 20px;
+            }
+            
+            #top-sellers {
+                width: 100%;
+                background-color: #D0D5F2;
+            }
+            
+            .carrossel {
+                width: 100%;
+                overflow: hidden;
+                display: block;
+                margin-left: auto;
+            }
+            
+            .container {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+                transform: translateX(0);
+            }
+            
+            .card-seller1 {
+                max-width: 346.06px;
+                max-height: 428.56px;
+                object-fit: cover;
+            }
