@@ -10,7 +10,12 @@
 
 @font-face {
     font-family: Riviera;
-    src: url(/fonts/Riviera.otf);
+    src: url(../fonts/Riviera.otf);
+}
+
+@font-face {
+    font-family: Azonix;
+    src: url(../fonts/Azonix.otf)
 }
 
 body {
