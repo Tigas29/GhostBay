@@ -1,16 +1,10 @@
-const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img")
-
-let idx = 0
-
-function carrosel() {
-    idx++;
-
-    if (idx > img.length - 1) {
-        idx = 0;
-    }
-
-    imgs.style.transform = `translateX(${-idx * 346}px) `
-
-}
-setInterval(carosel, 2000);
+document.querySelector("#item")
+    .addEventListener("wheel", event => {
+            if (event.deltaY > 0) {
+                event.target.scrollBy(300, 0)
+            } else {
+                console.log("scroll down")
+                event.target.scrollBy(-300, 0)
+            }
+        }
+    })
