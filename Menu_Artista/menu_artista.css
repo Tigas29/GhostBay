@@ -6,6 +6,12 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Love';
+    src: url(../fonts/Riviera.otf); /*use o ctrl + espaço para selecionar o arquivo*/
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     text-align: center;
     color: black;
@@ -24,6 +30,10 @@ button{
     margin-top: 10px;
 }
 
+
+.fonte{
+    font-family: nova;
+}
 
 #cabecalho{
     background-color: #d0d5f2;
@@ -74,6 +84,7 @@ a{
 }
 .banner1 {
     background-color: #2a2773;
+    font-family: 'Love';
     width: 100%;
     height: 50px;
     font-size: 30px;
@@ -196,19 +207,19 @@ p{
 }
 
 .titulo-meio {
-    font-family: 'Azonix';
+    font-family: 'Love';
     width: 370.11px;
     height: 91.04px;
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 80px;
     line-height: 50px;
     text-align: center;
-    color: #09031F;
+    color: #2a2773;
     margin: auto;
     float: left;
     margin-left: 300px;
-    margin-top: 250px;
+    margin-top: 260px;
 }
 
 .fundo-da-caveira {
