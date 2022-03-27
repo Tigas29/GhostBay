@@ -1,0 +1,155 @@
+/*css reset */
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    color: black;
+}
+
+
+main {
+    height: auto;
+    width: 100%;
+    background-color: #d0d5f2;
+}
+
+button{
+    padding: 2px 13px 2px 13px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+#cabecalho{
+    background-color: #d0d5f2;
+    width: 100%;
+    height: 130px;
+    margin: auto;
+}
+
+#logo{
+    float: left;
+    margin-top: 25px;
+    margin-left: 15px;
+
+}
+
+#inicio{
+    float: right;
+    margin-right: 150px;
+    color: #0c0d0d;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#carteira{
+    float: right;
+    margin-right: 40px;
+    text-decoration: none;
+    background: linear-gradient(90deg, #B629F2 -67.86%, #D0D5F2 102.89%);
+    color: #060407;
+    margin-top: 25px;
+    border: 1.5px solid;
+    border-radius: 10px;
+    border-color: #D0D5F2;
+}
+
+#agrupamento1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: #2a2773;
+    margin-top: 5%;
+}
+
+#agrupamento2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: #2a2773;
+    margin-top: 300px;
+}
+
+
+#caixa1, #caixa2, #caixa3, #caixa4{
+    margin: 50px;
+    margin-top: 10%;
+    position: relative;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#agrupamento1 img, #agrupamento2 img{
+    width: 284px;
+    height: 310px;
+}
+
+
+
+#details{
+    position: absolute;
+    width: 284px;
+    height: 100px;
+    background-color: #09031F;
+    border-radius: 0 0 14px 14px;
+    z-index: 2;
+    top: 297px;
+   
+}
+
+p{
+    font-family: 'LatoBold';
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #fff;
+}
+
+#price{
+    color: #fff;
+}
+
+#cabecalho2 {
+    background-color: #D0D5F2;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-meio {
+    font-family: 'Azonix';
+    width: 370.11px;
+    height: 91.04px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #09031F;
+    margin: auto;
+    float: left;
+    margin-left: 300px;
+    margin-top: 250px;
+}
+
+.fundo-da-caveira {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
