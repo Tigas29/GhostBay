@@ -31,7 +31,7 @@ main{
                             float: right;
                             text-align: center;
                             bottom: 100px;
-                            right: 7%;
+                            right: 5%;
                             position: relative;
                             font-style: normal;
                             font-weight: 400;
@@ -47,7 +47,7 @@ main{
                             bottom: 100px;
                             position: relative;
                             font-style: normal;
-                            right: 5%;
+                            right: 20%;
                             font-weight: 400;
                             font-size: 20px;
                             line-height: 24px;
@@ -185,7 +185,7 @@ hr{
 .raridade{
                             position: relative;
                             text-align: center;
-                            margin-top: 3%;}
+                            margin-top: 9%;}
 
 .raridade img{
                             width: 90%;
@@ -197,7 +197,7 @@ hr{
                             background: #2A2873;
                             width: 100%;
                             height: 69vh;
-                            margin-top: -8%;}
+                            margin-top: -%;}
 
 .texto-requisitos{          margin-top: -23%;}
 
@@ -233,7 +233,7 @@ hr{
                             margin-top: -5%;
                             text-align: center;
                             border-radius: 20px;
-                            margin-left: 50%;
+                            margin-left: 42%;
                             margin-right: auto;
                             font-family: 'Lato', sans-serif;
                             font-size: 1.5vw;
@@ -243,13 +243,14 @@ hr{
                             height: 30pt;
                             width: 100pt;
                             position: absolute;
+                            text-align: center;
                             background:#B629F2;}  
 
 .background-grego{
                             position: relative;
                             float: right;
                             width: 20%;
-                            margin-top: -12%;}
+                            margin-top: -11.8%;}
 
 .newsletters{
                             padding-top: 20px;
@@ -273,13 +274,13 @@ hr{
 
 .button-incricao{
                             position: relative;
-                            width: 7%;
-                            height: 6%;
+                            width: 90px;
+                            height: 30px;
                             background-color:#2A2873;
                             border: 1px #D0D5F2 solid;
                             border-radius: 20px;
-                            margin-top: 7%;
-                            right: 5%;}
+                            margin-top: 1%;
+                            right: 5.5%;}
 
 .button-incricao a{
                             color: #D0D5F2;
@@ -292,6 +293,7 @@ hr{
 
 .logo-lilas{
                             float: left;
+                            margin-top: 4%;
                             margin-left: 10%;}
 
 #inicio-home-footer{
@@ -319,9 +321,19 @@ hr{
                             position: relative;
                             display: block;
                             margin: auto;
-                            color: #000;
-                            top: -10% ;}
-    
+                            text-align: center;
+                            top: 10% ;}
+
+.button-meta a{             color: #fff;}    
+
+#social{
+                            position: absolute;
+                            left: 80%;}    
+
+#social img{
+                            padding: 4px;
+                            margin-left: 10px;
+                            margin-top: 10%;}
     
 @media (min-width:375px) {
     @media (max-width:1100px) { 
@@ -450,7 +462,6 @@ hr{
                             height: 48.12px;
                             border: 1px solid #D0D5F2;
                             border-radius: 20px;
-                            background-color: #161A26;
                             position: relative;
                             display: block;
                             margin: auto;
