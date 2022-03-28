@@ -513,6 +513,7 @@ box-sizing: border-box;
     
     .button-meta a {
     color: #D0D5F2;
+    font-size: 20px;
     }
 
     #transicao:hover {
