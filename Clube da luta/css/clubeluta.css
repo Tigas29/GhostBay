@@ -1,0 +1,463 @@
+/*CSS Reset */
+
+*{  
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    border: 0;}
+
+    @font-face {
+        font-family: riviera;
+        src: url(../fontes/Riviera/Riviera.otf);} 
+
+body{                       background-color: #171B27;}
+
+main{               
+                            width: 100%;
+                            height: 100vh;}
+
+/* cabeçalho */
+
+#cabecalho{
+                            width: 100%;
+                            height: 0px;}
+
+.logo-home{
+                            margin-top: 10px;
+                            margin-left: 1%;}
+
+.artistas{
+                            font-family: 'Baloo 2';
+                            float: right;
+                            text-align: center;
+                            bottom: 100px;
+                            right: 7%;
+                            position: relative;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #D0D5F2;
+                            font-family: 'Baloo 2';}
+
+.inicio{
+                            font-family: 'Baloo 2';
+                            float: right;
+                            text-align: center;
+                            bottom: 100px;
+                            position: relative;
+                            font-style: normal;
+                            right: 5%;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #D0D5F2;
+                            font-family: 'Baloo Tammudu 2';}
+
+.texto-button{
+                            font-family: 'Baloo Tammudu 2';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            color: #171B27;}
+
+.botao-carteira{
+                            float: right;
+                            position: relative;
+                            bottom: 100px;
+                            right: 3%;
+                            width: 84.07px;
+                            height: 24.06px;
+                            background: linear-gradient(90deg, #B629F2 -67.86%, #D0D5F2 102.89%);
+                            box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+                            border-radius: 20px;}
+ 
+#foto-fundo{
+                            background: url('../img/Background-capa.png');
+                            width: 100%;
+                            height: 100vw;
+                            background-repeat: no-repeat;
+                            background-size: contain;}
+
+.texto-luta{                float: right;}
+
+.texto-luta h1{ 
+                            margin-top: 10%;
+                            font-family: 'riviera';
+                            font-weight: 400;
+                            font-size: 60px;
+                            text-align: center;
+                            letter-spacing: 0.52em;
+                            color: #D0D5F2;}
+
+.texto-luta p{
+                            width: auto;
+                            height: auto;
+                            font-family: 'Lato';
+                            font-weight: 400;
+                            font-size: 30px;
+                            line-height: 36px;
+                            text-align: center;
+                            color: #D0D5F2;}    
+
+.texto-teste h1{
+                            text-align: center;
+                            font-size: 4rem;
+                            font-family: 'Lato', sans-serif;
+                            font-weight: 500;
+                            color: #D0D5F2;
+                            margin-top: -50%;}
+
+.texto-teste p{ 
+                            text-align: center;
+                            font-family: 'Lato', sans-serif;
+                            font-size: 1.4rem;
+                            color: #D0D5F2;
+                            padding-top: 10px;}
+
+.img-luta{ 
+                            position: relative;
+                            width: 45%;
+                            height: 50%;
+                            margin-left: 55%;
+                            margin-top: -20%; }
+
+.fight{
+                            color: #B629F2;
+                            position: relative;
+                            text-align: left;
+                            margin-left: 10%;
+                            margin-top: 10%;
+                            font-size: 60px;
+                            font-family: 'Lato', sans-serif;
+                            color: #B629F2;
+                            text-shadow: 0px 0px 20px #B629F2;}
+
+.caixa-texto2{
+                            position: relative;
+                            text-align: left;}
+
+.caixa-texto2 h1{
+                            position: relative;
+                            text-align: left;
+                            margin-left: 10%;
+                            margin-top: 2%;
+                            font-size: 40px;
+                            font-family: 'Lato', sans-serif;
+                            font-weight: 400;
+                            color: #D0D5F2;}
+
+.caixa-texto2 p{
+                            position: relative;
+                            text-align: left;
+                            margin-left: 10%;
+                            margin-top: 1%;
+                            font-family: 'Lato', sans-serif;
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #D0D5F2;}
+
+hr{
+                            text-align: left;
+                            margin-left: 10%;
+                            background-color: #B629F2;
+                            width: 40%;
+                            height: 20px;
+                            box-shadow: 0px 0px 20px #B629F2;}
+
+.texto-poder{
+                            color: #B629F2;
+                            position: relative;
+                            text-align: left;
+                            margin-left: 10%;
+                            margin-top: 3%;
+                            font-size: 60px;
+                            font-family: 'Lato', sans-serif;
+                            text-shadow: 0px 0px 20px #B629F2;}
+
+.hr-poder{
+                            margin-left: 10%;
+                            background-color: #B629F2;
+                            width: 50%;
+                            height: 20px;
+                            box-shadow: 0px 0px 20px #B629F2;}
+
+.raridade{
+                            position: relative;
+                            text-align: center;
+                            margin-top: 3%;}
+
+.raridade img{
+                            width: 90%;
+                            height: auto;}     
+
+/* footer */
+            
+#footer-all {
+                            background: #2A2873;
+                            width: 100%;
+                            height: 69vh;
+                            margin-top: -8%;}
+
+.texto-requisitos{          margin-top: -23%;}
+
+.texto-requisitos h1{
+                            color: #B629F2;
+                            position: relative;
+                            text-align: left;
+                            margin-left: 10%;
+                            margin-top: 15%;
+                            font-size: 50px;
+                            padding-top: 2%;
+                            font-family: 'Lato', sans-serif;
+                            text-shadow: 0px 0px 20px #B629F2;}
+
+.texto-requisitos hr{
+                            background-color: #B629F2;
+                            width: 20%;
+                            height: 20px;
+                            box-shadow: 0px 0px 20px #B629F2}
+
+.texto-requisitos p{
+                            position: relative;
+                            text-align: left;
+                            margin-left: 10%;
+                            margin-top: 1.5%;
+                            font-size: 20px;
+                            font-family: 'Lato', sans-serif;
+                            font-weight: 400;
+                            color: #D0D5F2;}
+
+.btn{
+                            cursor: pointer;
+                            margin-top: -5%;
+                            text-align: center;
+                            border-radius: 20px;
+                            margin-left: 50%;
+                            margin-right: auto;
+                            font-family: 'Lato', sans-serif;
+                            font-size: 1.5vw;
+                            font-weight: 400;
+                            color: #D0D5F2;
+                            text-shadow: 0px 0px 20px #B629F2;
+                            height: 30pt;
+                            width: 100pt;
+                            position: absolute;
+                            background:#B629F2;}  
+
+.background-grego{
+                            position: relative;
+                            float: right;
+                            width: 20%;
+                            margin-top: -12%;}
+
+.newsletters{
+                            padding-top: 20px;
+                            font-family: 'Lato';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 2.3rem;
+                            color: #D0D5F2;
+                            margin-left: 10%;}
+
+.texto-newsletters{
+                            width: 190.52px;
+                            font-family: 'Lato';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            letter-spacing: -0.05em;
+                            color: #D0D5F2;
+                            margin-left: 10%;}
+
+.button-incricao{
+                            position: relative;
+                            width: 7%;
+                            height: 6%;
+                            background-color:#2A2873;
+                            border: 1px #D0D5F2 solid;
+                            border-radius: 20px;
+                            margin-top: 7%;
+                            right: 5%;}
+
+.button-incricao a{
+                            color: #D0D5F2;
+                            background: #2A2873;
+                            font-family: 'Lato';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: #D0D5F2;}
+
+.logo-lilas{
+                            float: left;
+                            margin-left: 10%;}
+
+#inicio-home-footer{
+                            position: relative;
+                            top: -410px;
+                            clear: both;
+                            padding-top: 50px;
+                            font-family: 'Lato';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 30px;
+                            line-height: 36px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #D0D5F2;
+                            margin: 0;}
+    
+.button-meta{
+                            width: 100px;
+                            height: 30px;
+                            border: 1px solid #D0D5F2;
+                            border-radius: 20px;
+                            background-color:#2A2873 ;
+                            position: relative;
+                            display: block;
+                            margin: auto;
+                            color: #000;
+                            top: -10% ;}
+    
+    
+@media (min-width:375px) {
+    @media (max-width:1100px) { 
+
+        .texto-luta h1{
+                            font-size: 30px;
+                            text-align: center;
+                            margin-top: -8%;}
+
+        .texto-luta p{
+                            font-size: 15px;
+                            text-align: center;}
+
+        .texto-teste h1{
+                            font-size: 30px;
+                            text-align: center;}
+
+        .texto-teste p{
+                            font-size: 15px;
+                            text-align: center;}  
+        
+        .fight{
+                            font-size: 30px;
+                            text-align: left;}
+
+        .caixa-texto2 h1{
+                            font-size: 20px;
+                            text-align: left;}
+
+        hr{                 height: 10px;}
+
+        .caixa-texto2 p{
+                            font-size: 10px;
+                            text-align: left;}
+
+        .texto-poder{
+                            font-size: 30px;
+                            text-align: left;}
+
+        .hr-poder{          height: 10px;}
+
+        .raridade img{ 
+                            width: 500px;
+                            height: auto;}
+
+
+        .texto-requisitos h1{
+                            font-size: 30px;
+                            text-align: left;}
+
+        .texto-requisitos p{
+                            font-size: 10px;
+                            text-align: left;}
+
+        .texto-requisitos hr{ height: 10px;}
+    
+        #footer-all {
+                            height: auto;}
+        
+        #social {
+                            display: none;}
+        
+        #social-mob {
+                            display: block;
+                            display: grid;
+                            align-items: center;
+                            justify-content: right;
+                            margin-top: -300px;
+                            margin-right: 20px;}
+        
+        .background-grego{
+                            display: none;}
+        
+        .newsletters{
+                            position: relative;
+                            font-size: 30px;
+                            line-height: 48px;
+                            margin: 0;
+                            padding: 0;
+                            display: grid;
+                            justify-content: center;
+                            align-items: center;
+                            top: 50px;}
+        
+        .texto-newsletters{
+                            font-size: 20px;
+                            display: block;
+                            margin: 0;
+                            padding: 0;
+                            margin: auto;
+                            text-align: center;
+                            margin-top: 50px;}
+        
+        .button-incricao{
+                            display: block;
+                            margin: 0;
+                            padding: 0;
+                            right: 0;
+                            margin: auto;
+                            text-align: center;
+                            margin-top: 20px;}
+        
+        .logo-lilas {
+                            display: grid;
+                            align-items: center;
+                            justify-content: right;
+                            margin-top: 100px}
+        
+        #inicio-home-footer{
+                            position: relative;
+                            top: -500px;
+                            clear: both;
+                            padding-top: 50px;
+                            font-family: 'Lato';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 30px;
+                            line-height: 36px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #D0D5F2;}
+        
+        .button-meta{
+                            width: 147.58px;
+                            height: 48.12px;
+                            border: 1px solid #D0D5F2;
+                            border-radius: 20px;
+                            background-color: #161A26;
+                            position: relative;
+                            display: block;
+                            margin: auto;
+                            clear: both;
+                            top: 10;}
+    
+    }
+    
+    }
+
