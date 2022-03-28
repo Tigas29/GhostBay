@@ -157,6 +157,27 @@ padding-top:20px;
 }
 
 
+#caixa1 p{
+    font-family: 'LatoBold';
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #fff;
+}
+#caixa2 p{
+    font-family: 'LatoBold';
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #fff;
+}
+#caixa3 p{
+    font-family: 'LatoBold';
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #fff;
+}
 
 
 #caixa1,
