@@ -192,6 +192,7 @@ text-align: center;
 letter-spacing: 0.52em;
 
     }
+
 .linha{
     width: 411.15px;
     height: 0px;
@@ -199,7 +200,7 @@ letter-spacing: 0.52em;
     top: 990.98px;
     margin:auto;
     color: #fff;
-    border: 7px solid #FFFFFF;
+    border: 7px solid #ffffff;
     box-shadow: 0px 0px 20px #FFFFFF;
    
 }    
@@ -471,9 +472,10 @@ box-sizing: border-box;
         font-size: 30px;
         line-height: 36px;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         color: #D0D5F2;
+        right:40PX
     }
     
  
@@ -513,7 +515,6 @@ box-sizing: border-box;
     
     .button-meta a {
     color: #D0D5F2;
-    font-size: 20px;
     }
 
     #transicao:hover {
