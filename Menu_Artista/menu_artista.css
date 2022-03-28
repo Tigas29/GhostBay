@@ -1,80 +1,172 @@
-/*css reset */
 
-*{
-margin: 0;
-padding: 0;
-border: none;
-text-decoration: none;
-box-sizing: border-box;
-}
-
-@font-face {
-
-    font-family: 'Love';
-    src: url(../fonts/Riviera.otf); /*use o ctrl + espaço para selecionar o arquivo*/
-    font-weight: normal;
-    font-style: normal;
-}
-body{
-    text-align: center;
-    color: black;
-}
-
-
-main {
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+    
+    @font-face {
+    font-family: Riviera;
+    src: url(../fonts/Riviera.otf);
+    }
+    
+    @font-face {
+    font-family: Azonix;
+    src: url(../fonts/Azonix.otf)
+    }
+    
+    body {
+    background-color: #D0D5F2;
+    }
+    
+    main {
     height: auto;
     width: 100%;
-    background-color: #d0d5f2;
-}
-
-button{
-    padding: 2px 13px 2px 13px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-
-.fonte{
-    font-family: nova;
-}
-
-#cabecalho{
-    background-color: #d0d5f2;
+    }
+    
+    /* cabeçalho mobile e tablet  */
+    
+    #nav {
+    display: none;
+    
+    }
+    
+    #nav a {
+    color: #D0D5F2;
+    text-decoration: none;
+    font-family: sans-serif;
+    }
+    
+    #nav a:hover {
+    background: rgba(0, 0, 0, 0.05);
+    }
+    
+    #header {
+    margin-top: 20px;
+    float: right;
+    }
+    
+    #menu-mob {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    display: none;
+    
+    }
+    
+    #menu-mob a {
+    display: block;
+    padding: 0.5rem;
+    }
+    
+    #btn-mobile {
+    display: none;
+    }
+    
+    
+    
+    /* cabeçalho */
+    #menu-mobile img {
+    margin: 20px;
+    
+    }
+    
+    #menu-mobile {
+    display: none;
+    display: grid;
+    align-items: center;
+    
+    
+    }
+    
+    #btn-mobile {
+    display: none;
+    }
+    
+    #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    
+    
+    #cabecalho-all {
     width: 100%;
-    height: 130px;
-    margin: auto;
-}
-
-#logo{
-    float: left;
-    margin-top: 25px;
-    margin-left: 15px;
-
-}
-
-#inicio{
+    height: 0px;
+    }
+    
+    .logo-home-all{
+    margin-top: 10px;
+    
+    margin-left: 1%;
+    }
+    
+ 
+    
+    .artistas-all a {
+    color: #000000;
+    }
+    
+    .artistas-all {
+    font-family: 'Baloo 2';
     float: right;
-    margin-right: 150px;
-    color: #0c0d0d;
-    margin-top: 25px;
-    text-decoration: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-#carteira{
+    text-align: center;
+    text-align: center;
+    bottom: 85px;
+    right: 7%;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    font-family: 'Baloo Tammudu 2';
+    }
+    
+    .inicio-all a {
+    color: black
+    }
+    
+    .inicio-all {
+    font-family: 'Baloo 2';
     float: right;
-    margin-right: 40px;
-    text-decoration: none;
+    text-align: center;
+    bottom: 85px;
+    position: relative;
+    font-style: normal;
+    right: 5%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Baloo Tammudu 2';
+    }
+    
+    .texto-button-all {
+    font-family: 'Baloo Tammudu 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 33px;
+    color: #171B27;
+    }
+    
+    .botao-carteira-all {
+    float: right;
+    position: relative;
+    bottom: 90px;
+    right: 3%;
+    width: 84.07px;
+    height: 24.06px;
     background: linear-gradient(90deg, #B629F2 -67.86%, #D0D5F2 102.89%);
-    color: #060407;
-    margin-top: 25px;
-    border: 1.5px solid;
-    border-radius: 10px;
-    border-color: #D0D5F2;
-}
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    
+    }
+    
 
 #agrupamento1{
     clear:both;
@@ -84,24 +176,31 @@ a{
 }
 .banner1 {
 margin:auto;
-font-family: 'Love';
+
 width: 100%;
 height: 50px;
-font-size: 30px;
 text-align: center;
 color: #FFFAFA;
 text-shadow: 0px 0px 25px #FFFFFF;
 padding-top:20px;
+font-family: 'Riviera';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+letter-spacing: 0.52em;
 
     }
 .linha{
-    width: 10%;
-    height: 7px;
-    margin: auto;  
-    background-color: #fff;
-    text-shadow: 0px 0px 20px #FFF;
-    border: 1.5px solid #fff;
-    box-shadow: 0 0 25px #fff;
+    width: 411.15px;
+    height: 0px;
+    left: 603.23px;
+    top: 990.98px;
+    margin:auto;
+    color: #fff;
+    border: 7px solid #FFFFFF;
+    box-shadow: 0px 0px 20px #FFFFFF;
    
 }    
 
@@ -168,19 +267,37 @@ padding-top:20px;
     color: #fff;
 }
 
+#caixa1 img, #caixa2 img, #caixa3 img{   filter: blur(px);}
 
+#caixa1 img:hover {
+filter: none;
+
+}  
+#caixa2 img:hover {
+    filter: none;
+    
+    }  
+
+    #caixa3 img:hover {
+        filter: none;
+  
+        }  
+
+        
 #caixa1,
 #caixa2,
 #caixa3 {
     position: relative;
     width: 20%;
-    height: 500px;
+    min-height: 450px;
+    max-height: 500px;
     margin-top: 10px;
     border:1.5px solid #B629F2;
     background-color: #09031F;
     float: left;
     object-fit:fill;
     border-radius: 20px;
+    
     margin-top: 50px;
 }
 
@@ -195,29 +312,31 @@ padding-top:20px;
 
 
 #agrupamento1 img, #agrupamento2 img, #agrupamento3 img, #agrupamento4 img, #agrupamento5 img, #agrupamento6 img{
-    width: 95%;
+    width: 94%;
     height: 280px;
-    margin-top: 15px;
     border-radius: 10px;
     object-fit: cover;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+ 
+
 }
 
 #details{
+    margin-top: 30PX;
     position: absolute;
-    width: 100%;
-    height: 10px;
-    background-color: #09031F;
-    z-index: 2;
-    top: 297px;
+    width: 183.17px;
+    height: 31px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 31px;
+    
+    color: #D0D5F2;
 }
-/* tinha um p aqui em baixo, arruma ai pq n pode ter tag solta no css senao buga */
-/*{
-    font-family: 'LatoBold';
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 3%;
-    color: #fff;
-}*/
+
 
 #price{
     color: #fff;
@@ -232,19 +351,25 @@ padding-top:20px;
 }
 
 .titulo-meio {
-    font-family: 'Love';
-    width: 370.11px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 50px;
-    text-align: center;
-    color: #2a2773;
-    margin: auto;
-    float: left;
-    margin-top: 300px;
-    margin-left: 10%;
-    
+width: 609.21px;
+height: 75.14px;
+float:left;
+margin-top: 280px;
+font-family: 'Riviera';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 69px;
+text-align: center;
+letter-spacing: 0.52em;
+margin-left: 50px;
+Padding:0 10px;
+color: #2A2873;
+width: 560.56px;
+height: 76.53px;
+border: 1px solid #2A2873;
+box-sizing: border-box;
+
 }
 
 
@@ -252,8 +377,9 @@ padding-top:20px;
 .fundo-da-caveira {
     padding-top: 50px;
     float:right;
-    margin-right: 100px;
-    margin-bottom: 30px;
+
+    padding-bottom: 30px;
+    width:500px;
 }
 
 /* footer */
@@ -394,6 +520,99 @@ padding-top:20px;
     }
 
     @media only screen and (max-width:480px){
+        
+        
+#header img {
+    display: block;
+    }
+    
+    #menu-mob img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+    }
+    
+    #nav {
+    
+    display: block;
+    }
+    
+    #cabecalho-all{
+    display: none;
+    }
+    
+    #menu-mob {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #161A26;
+    
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    }
+    
+    #nav.active #menu-mob {
+    height: calc(50vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+    }
+    
+    #menu-mob a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    
+    #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+    }
+    
+    #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+    }
+    
+    #hamburger::after,
+    #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+    }
+    
+    #nav.active #hamburger {
+    border-top-color: transparent;
+    }
+    
+    #nav.active #hamburger::before {
+    transform: rotate(135deg);
+    }
+    
+    #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+    }
+    
+    
         #cabecalho2 {
             background-color: #D0D5F2;
             width: 100%;
@@ -430,6 +649,98 @@ padding-top:20px;
     @media only screen and (min-width:481px){
         @media only screen and (max-width:720px)   
         {
+            
+#header img {
+    display: block;
+    }
+    
+    #menu-mob img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+    }
+    
+    #nav {
+    
+    display: block;
+    }
+    
+    #cabecalho {
+    display: none;
+    }
+    
+    #menu-mob {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #161A26;
+    
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    }
+    
+    #nav.active #menu-mob {
+    height: calc(50vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+    }
+    
+    #menu-mob a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    
+    #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+    }
+    
+    #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+    }
+    
+    #hamburger::after,
+    #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+    }
+    
+    #nav.active #hamburger {
+    border-top-color: transparent;
+    }
+    
+    #nav.active #hamburger::before {
+    transform: rotate(135deg);
+    }
+    
+    #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+    }
+    
+    
     
             #cabecalho2 {
                 background-color: #D0D5F2;
