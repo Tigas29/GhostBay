@@ -499,13 +499,13 @@ box-sizing: border-box;
     clear: both;
     top: -80PX;
     }
-    
+
     #social {
-    position: relative;
-    top: 180px;
-    float: right;
-    left: 300px;
-    }
+        position: relative;
+        top: 180px;
+        float: right;
+        left: 300px;
+        }
     
     #social a {
     margin: 10px;
@@ -648,7 +648,7 @@ box-sizing: border-box;
                 
     }
     @media only screen and (min-width:481px){
-        @media only screen and (max-width:720px)   
+        @media only screen and (max-width:1100px)   
         {
             
 #header img {
@@ -670,7 +670,7 @@ box-sizing: border-box;
     display: block;
     }
     
-    #cabecalho {
+    #cabecalho-all {
     display: none;
     }
     
@@ -743,13 +743,7 @@ box-sizing: border-box;
     
     
     
-            #cabecalho2 {
-                background-color: #D0D5F2;
-                width: 100%;
-                height: auto;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
+            
             .titulo-meio {
                 font-family: 'Love';
                 width: 370.11px;
@@ -767,10 +761,10 @@ box-sizing: border-box;
             .fundo-da-caveira {
                 padding-top: 50px;
                 float:right;
-                width: 60%;
-                height: 350px;
-                margin-right: 100px;
-                margin-bottom: 30px;
+                width: 30%;
+            
+                margin-right: 10px;
+               
             }
         }
         #inicio-home-footer{
