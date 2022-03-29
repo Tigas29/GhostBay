@@ -43,7 +43,8 @@ main {
 }
 
 #nav a:hover {
-    background: rgba(0, 0, 0, 0.05);
+    background: #D0D5F2;
+    color: #D0D5F2;
 }
 
 #header {
@@ -51,17 +52,28 @@ main {
     float: right;
 }
 
+#menu-mob button{
+    color: #D0D5F2;
+    background: #D0D5F2;
+    color: #D0D5F2;
+}
+
 #menu-mob {
     display: flex;
     list-style: none;
     gap: 0.5rem;
     display: none;
+    background-color: #D0D5F2;
+    color: #D0D5F2;
 
 }
+
+
 
 #menu-mob a {
     display: block;
     padding: 0.5rem;
+    color:#D0D5F2;
 }
 
 #btn-mobile {
@@ -80,7 +92,8 @@ main {
     display: none;
     display: grid;
     align-items: center;
-
+color: #D0D5F2;
+background-color: #D0D5F2;
 
 }
 
@@ -506,9 +519,11 @@ hr {
     margin-top: 10%;
 }
 
-@media (min-width:375px) {
+@media (min-width:481px) {
     @media (max-width:1100px) {
-
+footer{
+    display: none;
+}
         #header img {
             display: block;
         }
@@ -520,8 +535,7 @@ hr {
             margin: auto;
             text-align: center;
             margin-top: 20px;
-
-        }
+            color: #D0D5F2;}
 
         #nav {
 
@@ -599,171 +613,93 @@ hr {
             top: -7px;
         }
 
+.texto-luta h1{
+    margin: 0;
+  display: block;
+  margin: auto;
+ padding: 0;
+ width: 100%;
+ letter-spacing: 0;
+ line-height: auto;
+ font-size: 40px;
+ 
+ padding-top: 100px;
+}
+.texto-luta p{
+    margin-top: -15px;
+    font-size: 20px;}
+
+.texto-teste h1 {
+    text-align: center;
+    font-size: 30px;
+   
+}
+.texto-teste p {
+    font-size: 20px;
+    margin-top: -45px;
+}
+
+.fight {
+   text-align: center;
+   font-size: 25px;
+    
+}
 
 
-        .texto-luta h1 {
-            font-size: 30px;
-            text-align: center;
-            margin-top: -8%;
-        }
+.caixa-texto2 h1 {
+    text-align: center;
+    font-size: 25px;
+    
+}
 
-        .texto-luta p {
-            font-size: 15px;
-            text-align: center;
-        }
+.caixa-texto2 p {
+    text-align: center;
+    font-size: 15px;
+  
+}
 
-        .texto-teste h1 {
-            font-family: Azonix;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 50px;
-            line-height: 50px;
+hr {
+    margin-top: 20px;
+    height: 10px;
 
-            color: #D0D5F2;
+    padding: 0;
+    display:flex;
+    margin:auto;
+   justify-content: center;
+   align-items: center;
+ margin: auto;
 
-        }
+     margin-left: 35%;
+    
+    
+}
 
-        .texto-teste p {
-            font-size: 15px;
-            text-align: center;
-        }
+.img-luta {
 
-        .fight {
-            font-size: 30px;
-            text-align: left;
-        }
+position: relative; 
+clear: both;
+margin-left: 35%;
+margin-right: 15%;
+width: 60%;
+margin-top: 30px;
+display: block;
+margin-top: 20PX
 
-        .caixa-texto2 h1 {
-            font-size: 20px;
-            text-align: left;
-        }
-
-        hr {
-            height: 10px;
-        }
-
-        .caixa-texto2 p {
-            font-size: 10px;
-            text-align: left;
-        }
-
-        .texto-poder {
-            font-size: 30px;
-            text-align: left;
-        }
-
-        .hr-poder {
-            height: 10px;
-        }
-
-        .raridade img {
-            width: 500px;
-            height: auto;
-        }
-
-
-        .texto-requisitos h1 {
-            font-size: 30px;
-            text-align: left;
-        }
-
-        .texto-requisitos p {
-            font-size: 10px;
-            text-align: left;
-        }
-
-        .texto-requisitos hr {
-            height: 10px;
-        }
-
-        #footer-all {
-            height: auto;
-        }
-
-        #social {
-            display: none;
-        }
-
-        #social-mob {
-            display: block;
-            display: grid;
-            align-items: center;
-            justify-content: right;
-            margin-top: -300px;
-            margin-right: 20px;
-        }
-
-        .background-grego {
-            display: none;
-        }
-
-        .newsletters {
-            position: relative;
-            font-size: 30px;
-            line-height: 48px;
-            margin: 0;
-            padding: 0;
-            display: grid;
-            justify-content: center;
-            align-items: center;
-            top: 50px;
-        }
-
-        .texto-newsletters {
-            font-size: 20px;
-            display: block;
-            margin: 0;
-            padding: 0;
-            margin: auto;
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .button-incricao {
-            display: block;
-            margin: 0;
-            padding: 0;
-            right: 0;
-            margin: auto;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .logo-lilas {
-            display: grid;
-            align-items: center;
-            justify-content: right;
-            margin-top: 100px
-        }
-
-        #inicio-home-footer {
-            position: relative;
-            top: -500px;
-            clear: both;
-            padding-top: 50px;
-            font-family: 'Lato';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 36px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #D0D5F2;
-        }
-
-        .button-meta {
-            width: 147.58px;
-            height: 48.12px;
-            border: 1px solid #D0D5F2;
-            border-radius: 20px;
-            position: relative;
-            display: block;
-            margin: auto;
-            clear: both;
-            top: 10;
-        }
-
-    }
 
 }
+
+.texto-poder {
+   font-size: 25px;}
+
+.hr-poder {
+    display: none;
+    background-color: #B629F2;
+    width: 50%;
+    box-shadow: 0px 0px 20px #B629F2;
+    display: block;
+    margin: auto;
+}
+
+
+
+    }}
