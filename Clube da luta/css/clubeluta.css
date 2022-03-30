@@ -660,17 +660,16 @@ hr {
                                 position: relative; 
                                 clear: both;
                                 margin-left: 0%;
-                                margin-right:15%;
-                                width: 70%;
+                                margin-right:25%;
+                                width: 50%;
                                 margin-top: 10px;
                                 display:flex;
                                 justify-content: center;
                                 align-items: center;}
 
         .texto-poder{
-                                font-size: 25px;
+                                font-size: 20px;
                                 align-items: center;
-                                padding-top:5%;
                                 justify-content: center;}
 
         .hr-poder{
@@ -685,8 +684,8 @@ hr {
                                 display:flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 400px;
-                                margin-top: 15px;}
+                                width: 450px;
+                                margin-top: 12px;}
 
         #footer-all{
                                 margin-top: 15.7%;
