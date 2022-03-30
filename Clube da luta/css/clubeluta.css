@@ -365,12 +365,12 @@ hr {
 }
 
 .texto-requisitos hr {
-    width:250px;
-    position: relative;
-    float: left;
-    margin:  30px;
-    margin-top: 10px;
-    box-shadow: 0px 0px 20px #B629F2
+  width:250px;
+  position: relative;
+ float: left;
+ margin:  30px;
+ margin-top: 10px;
+ box-shadow: 0px 0px 20px #B629F2
 }
 
 .texto-requisitos p {
@@ -437,6 +437,7 @@ hr {
 
 .button-incricao {
     position: relative;
+   
     background-color: #2A2873;
     border: 1px #D0D5F2 solid;
     border-radius: 20px;
@@ -572,8 +573,7 @@ hr {
 
         #hamburger{
                                 border-top: 2px solid;
-                                width: 20px;
-                            background-color: #D0D5F2;}
+                                width: 20px;}
 
         #hamburger::after,
         #hamburger::before{
@@ -602,22 +602,22 @@ hr {
                                 padding: 0;
                                 width: 100%;
                                 line-height: auto;
-                                font-size: 30px;
+                                font-size: 40px;
                                 padding-top: 100px;}
 
         .texto-luta p{
                                 margin-top: -15px;
-                                font-size: 20px;}
+                                font-size: 25px;}
 
         .texto-teste h1{
                                 text-align: center;
-                                font-size: 25px;
+                                font-size: 40px;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;}
 
         .texto-teste p{
-                                font-size: 15px;
+                                font-size: 20px;
                                 margin-top: -45px;
                                 display: flex;
                                 align-items: center;
@@ -625,7 +625,7 @@ hr {
 
         .fight{
                                 text-align: center;
-                                font-size: 25px;
+                                font-size: 40px;
                                 margin-left: -0%;
                                 display:flex;
                                 justify-content: center;
@@ -633,7 +633,7 @@ hr {
 
         .caixa-texto2 h1{
                                 text-align: center;
-                                font-size: 25px;
+                                font-size: 35px;
                                 margin-left: -0%;
                                 display:flex;
                                 justify-content: center;
@@ -641,7 +641,7 @@ hr {
 
         .caixa-texto2 p{
                                 text-align: center;
-                                font-size: 13px;
+                                font-size: 20px;
                                 margin-left: -0%;
                                 display:flex;
                                 justify-content: center;
@@ -668,9 +668,9 @@ hr {
                                 align-items: center;}
 
         .texto-poder{
-                                font-size: 25px;
+                                font-size: 40px;
                                 align-items: center;
-                                padding-top:5%;
+                                padding-top:25%;
                                 justify-content: center;}
 
         .hr-poder{
@@ -685,29 +685,37 @@ hr {
                                 display:flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 400px;
+                                width: 600px;
                                 margin-top: 15px;}
 
         #footer-all{
                                 margin-top: 15.7%;
                                 height: auto;}
 
+        #social {
+                                position: relative;
+                                top: -90px;
+                                left: -30px;
+                                display: flex;
+                                float: right;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin-left: 10px;}
+
+
         .btn{
                                 align-items: center;
                                 display: flex;
                                 justify-content: center;
-                                margin-left: 35%;
-                                width: 30%;}
-        .btn p{
-                                font-size: 20px;
-        }                        
+                                margin-left: 235px;}
 
         .background-grego {     display: none;}
 
 
         .newsletters{
                                 position: relative;
-                                font-size: 20px;
+                                font-size: 30px;
                                 line-height: 48px;
                                 margin: 0;
                                 padding: 0;
@@ -718,7 +726,7 @@ hr {
                                 text-align: center;}
 
         .texto-newsletters{
-                                font-size: px;
+                                font-size: 20px;
                                 margin: 0;
                                 padding: 10px;
                                 margin: auto;
@@ -726,7 +734,7 @@ hr {
                                 margin-top: 50px;}
 
         .button-incricao{
-                                margin-left: 55%;
+                                margin-left: 53%;
                                 text-align: center;
                                 margin-top: 20px;
                                 align-items: center;
@@ -737,7 +745,7 @@ hr {
                                 display: grid;
                                 align-items: center;
                                 justify-content: right;
-                                margin-top: 100px;}
+                                margin-top: 100px}
 
         #inicio-home-footer{
                                 top: -500px;
@@ -755,11 +763,10 @@ hr {
                                 align-items: center;
                                 display: flex;
                                 justify-content: center;
-                                top: -130px;
-                                left: -1%;}
+                                top: -130px;}
 
         .texto-requisitos h1{
-                                font-size: 25px;
+                                font-size: 40px;
                                 align-items: center;
                                 text-align: center;
                                 display: flex;
@@ -768,7 +775,7 @@ hr {
 
         .texto-requisitos p{
                                 margin-bottom: 30px;
-                                font-size: 15px;
+                                font-size: 20px;
                                 align-items: center;
                                 text-align: center;
                                 display: flex;
@@ -777,24 +784,14 @@ hr {
 
         .texto-requisitos hr{
                                 margin-top: 20px;
-                                height: 5px;
+                                height: 10px;
                                 margin: auto;
-                                margin-left: 25%;
+                                margin-left: 34%;
                                 display:flex;
                                 text-align: center;
                                 justify-content: center;
                                 align-items: center;}
 
-        #social {
-                                position: relative;
-                                top: -90px;
-                                left: -30px;
-                                display: flex;
-                                float: right;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                margin-left: 10px;}                        
 
     }}
 
@@ -880,23 +877,25 @@ hr {
                                 display: block;
                                 margin: auto;
                                 padding: 0;
-                                font-size: 15px;
-                                padding-top: 60px;}
+                                width: 100%;
+                                line-height: auto;
+                                font-size: 20px;
+                                padding-top: 50px;}
 
         .texto-luta p{
                                 margin-top: -15px;
-                                font-size: 13px;}
+                                font-size: 15px;}
 
         .texto-teste h1{
                                 text-align: center;
-                                font-size: 15px;
+                                font-size: 20px;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
                                 padding-top: 25px;}
 
         .texto-teste p{
-                                font-size: 10px;
+                                font-size: 12px;
                                 margin-top: -45px;
                                 display: flex;
                                 align-items: center;
@@ -904,7 +903,7 @@ hr {
 
         .fight{
                                 text-align: center;
-                                font-size: 15px;
+                                font-size: 20px;
                                 margin-left: -0%;
                                 display:flex;
                                 justify-content: center;
@@ -912,7 +911,7 @@ hr {
 
         .caixa-texto2 h1{
                                 text-align: center;
-                                font-size: 15px;
+                                font-size: 20px;
                                 margin-left: -0%;
                                 display:flex;
                                 justify-content: center;
@@ -920,7 +919,7 @@ hr {
 
         .caixa-texto2 p{
                                 text-align: center;
-                                font-size: 10px;
+                                font-size: 12px;
                                 margin-left: -0%;
                                 display:flex;
                                 justify-content: center;
@@ -928,7 +927,7 @@ hr {
 
         hr{
                                 margin-top: 20px;
-                                height: 3px;
+                                height: 5px;
                                 margin: auto;
                                 margin-left: 30%;
                                 display:flex;
@@ -947,12 +946,10 @@ hr {
                                 align-items: center;}
 
         .texto-poder{
-                                font-size: 15px;
+                                font-size: 20px;
                                 align-items: center;
-                                padding-top:10%;
-                                justify-content: center;
-                                margin-top: 145px;
-                            }
+                                padding-top:5%;
+                                justify-content: center;}
 
         .hr-poder{
                                 width: 50%;
@@ -966,26 +963,24 @@ hr {
                                 display:flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 280px;
+                                width: 300px;
                                 margin-top: 15px;}
 
         #footer-all{
-                                margin-top: 10%;
+                                margin-top: 15.7%;
                                 height: auto;}
 
-       #social {
+        #social {
                                 position: relative;
-                                top: 40px;
-                                left: -80px;
+                                top: -90px;
+                                left: -30px;
                                 display: flex;
                                 float: right;
-                                flex-direction: row;
+                                flex-direction: column;
                                 justify-content: center;
-                                align-items: center;}
+                                align-items: center;
+                                margin-left: 10px;}
 
-        #social img{
-                                width: 50%;
-        }
 
         .btn{
                                 align-items: center;
@@ -1019,25 +1014,20 @@ hr {
                                 text-align: center;
                                 margin-top: 20px;}
 
-        .button-incricao{                       visibility:hidden;
-                                margin-left: 64%;
+        .button-incricao{
+                                margin-left: 65%;
                                 text-align: center;
                                 width: 90px;
                                 margin-top: 10px;
                                 align-items: center;
                                 display: flex;
-                                justify-content: center;}   
+                                justify-content: center;}                   
 
-        .logo-lilas{            
-                                visibility: hidden;
+        .logo-lilas{
                                 display: grid;
                                 align-items: center;
                                 justify-content: right;
-                                margin-top: 10px;
-                                margin-left: 10px;
-                                }
-
-        .logo-lilas img{        width: 70%;}
+                                margin-top: 100px;}
 
         #inicio-home-footer{
                                 top: -500px;
@@ -1051,15 +1041,12 @@ hr {
                                 align-items: center;}
 
         .button-meta{
-                                visibility: hidden;
-                                position: relative;
-                                top: 90%;
                                 margin-left: 40%;
                                 text-align: center;
                                 width: 90px;
                                 align-items: center;
                                 display: flex;
-                                justify-content: center;}  
+                                justify-content: center;}       
 
         .texto-requisitos h1{
                                 font-size: 20px;
@@ -1088,4 +1075,6 @@ hr {
                                 text-align: center;
                                 justify-content: center;
                                 align-items: center;}
+
+
     }
