@@ -64,8 +64,6 @@ main {
     display: none;
 }
 
-
-
 /* cabeçalho */
 #menu-mobile img {
     margin: 20px;
@@ -90,8 +88,6 @@ main {
     justify-content: space-between;
 }
 
-
-
 #cabecalho-all {
     width: 100%;
     height: 0px;
@@ -102,8 +98,6 @@ main {
 
     margin-left: 1%;
 }
-
-
 
 .artistas-all a {
     color: #000000;
@@ -166,8 +160,6 @@ main {
 
 }
 
-
-
 .banner1 {
     position: relative;
     margin: auto;
@@ -185,8 +177,6 @@ main {
     letter-spacing: 0.2em;
     color: #D0D5F2;
     text-shadow: 0px 0px 20px #FFFFFF;
-
-
 }
 
 .banner2 {
@@ -206,8 +196,6 @@ main {
     color: #D0D5F2;
     text-shadow: 0px 0px 20px #FFFFFF;
 }
-
-
 
 .linha {
 position: relative;
@@ -240,7 +228,6 @@ box-shadow: 0px 0px 20px #FFFFFF;
     box-shadow: 0px 0px 20px #FFFFFF;
 }
 
-
 #agrupamento {
     clear: both;
     width: 100%;
@@ -249,29 +236,16 @@ box-shadow: 0px 0px 20px #FFFFFF;
     margin-top: 20%;
 }
 
-
-
-
 .caixa2 {
     float: right;
 }
-
-
 
 #agrupamento img {
     height: 380px;
     margin: 10px 37px;
     filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.3));
     border-radius: 15px;
-
 }
-
-
-
-
-
-
-
 
 .titulo-meio {
     width: 609.21px;
@@ -571,7 +545,73 @@ box-shadow: 0px 0px 20px #FFFFFF;
         margin-bottom: 30px;
     }
 
+    #agrupamento{
+        height: 250px;
+    }
 
+    #agrupamento img{
+        width: 40%;
+        height: 230px;
+    }
+
+    .banner1 {
+        position: relative;
+        margin: auto;
+        float: left;
+        text-decoration: none;
+        height: 33px;
+        bottom: 90px;
+        left: 230px;
+        font-family: 'Riviera';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 35px;
+        letter-spacing: 0.2em;
+        color: #D0D5F2;
+        text-shadow: 0px 0px 20px #FFFFFF;
+    }
+    .linha {
+        position: relative;
+        width: 30%;
+        height: 0px;
+        top: -45px;
+        left: -35px;
+        border: 3px solid #D0D5F2;
+        box-shadow: 0px 0px 20px #FFFFFF;
+        }
+
+        .caixa2{
+            clear: both;
+            margin-left: 300px;
+            width: 100%;
+        }
+
+        .banner2{
+            font-size: 15px;
+            top: -80px;
+            left: -60px;
+        }
+        
+        .linha2{
+            clear: both;
+            width: 30%;
+            height: 0px;
+            top: -55px;
+            margin-right: 80%;
+            border: 3px solid #D0D5F2;
+            box-shadow: 0px 0px 20px #FFFFFF;
+        }
+
+        .linha3{
+            clear: both;
+            width: 30%;
+            height: 0px;
+            top: -55px;
+            margin-right: 83%;
+            border: 3px solid #D0D5F2;
+            box-shadow: 0px 0px 20px #FFFFFF;
+        }
 }
 
 @media only screen and (min-width:481px) {
