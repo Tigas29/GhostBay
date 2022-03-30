@@ -80,10 +80,6 @@ body{
   border-bottom: 2px solid black;
 }
 
-.login:hover {
-  background-color: #e9ebf7;
-}
-
 .outros {
 	justify-content:center;
 	font-weight: bold;
