@@ -15,6 +15,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 <title>GhostBay</title>
@@ -25,12 +27,12 @@
     <!-- cabecalho -->
     <header id="cabecalho">
 
-        <img class="logo-home" src="../imagens/Logo1.png" alt="logo1">
+        <a href="../index.html"> <img class="logo-home"  src="../imagens/Logo1.png" alt="logo1">
         <nav id="menu">
             <p class="ghost-name">Ghostbay</p>
-            <button class="botao-carteira"> <a href="/Carteira/carteira.html" class="texto-button">Carteira</a></button>
+            <button class="botao-carteira"> <a href="../Login/login.html" class="texto-button">Carteira</a></button>
             <p class="inicio"><a href="../index.html">inicio</a></p>
-            <p class="artistas"><a href="./Menu_Artista/menu_artista.html"> Creators </a></p>
+            <p class="artistas"><a href="../Menu_Artista/menu_artista.html"> Creators </a></p>
         </nav>
     </header>
 
@@ -63,14 +65,18 @@
     </section>
 
     <section id="nfts-part">
+        <div data-aos="zoom-out"
+        data-aos-duration="4000" > 
         <p class="tittle-nft">NFTs</p>
         <img class="imagemrobo" src="../imagens/imagem-robo3d.png">
 
         <h1 class="texto-nft">Tokens não fungíveis (NFTs) são tokens virtuais cunhados no blockchain para escassez digital, segurança e autenticidade. Eles são únicos, indivisíveis e não intercambiáveis ​​– permitindo a verdadeira propriedade digital dos ativos do jogo.</h1>
         <button class="Comprar-acesso"><a href="#" class="acesso-button">Comprar acesso</a></button>
-
+    </div>
     </section>
-
+    <script>
+        AOS.init();
+      </script>
     <!-- top seller com o carousel -->
     <section id="top-sellers">
         <h1 class="tittle-sellers">Top sellers</h1>
@@ -108,7 +114,7 @@
             <a href="https://www.instagram.com/ " target="_blank "><img src="../imagens/Instagram.png "></a>
             <a href="https://discord.com/ " target="_blank "><img src="../imagens/Discord.png "></a>
         </div>
-        <button class="button-meta"> <a href="#">???</a></button>
+        <button class="button-meta"> <a href="../Clube da luta/clubeluta.html">???</a></button>
         
         <div id="inicio-home-footer">
             <p class="home-footer"> <a href="#">Home</a> </p>
