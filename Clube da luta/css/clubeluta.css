@@ -965,9 +965,7 @@ hr {
         .raridade img{
                                 display:flex;
                                 justify-content: center;
-                                align-items: center;
-                                width: 280px;
-                                margin-top: 15px;}
+                                align-items: center;}
 
         #footer-all{
                                 margin-top: 10%;
