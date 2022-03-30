@@ -30,6 +30,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 30px;
+    margin-top: 20px;
    
     
 }
@@ -56,15 +58,15 @@ nav img{
     position: relative;
 margin-top:170px;
 margin-left:80px;
-width: 45%;
+width: 40%;
 height: 450px;
 background: #D0D5F2;
 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5)
 }
 
 .aviso{
-    margin-left:45px;
-    margin-top: 25px;
+    margin-left:25px;
+    margin-top: 15px;
 }
 
 #conectarcarteira a{
@@ -78,8 +80,9 @@ color: #161A26;
 }
 
 #avisocarteira h1{
-margin-top:40px;
-margin-left: 45px;
+margin-top:20px;
+margin-left: 25px;
+
 font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
@@ -89,9 +92,9 @@ color: #161A26;
 }
 
 #avisocarteira p{
-    margin-left:50px;
+    margin-left:30px;
     margin-top: 25px;
-    width: 494.71px;
+    width: 200.71px;
     height: 55.04px;
     font-family: 'Lato';
     font-style: normal;
@@ -102,8 +105,8 @@ color: #161A26;
 }
 
 #conectardark{
-    margin-left: 50px;
-    margin-top: 60px;
+    margin-left: 20px;
+    margin-top: 70px;
     width: 188.12px;
     height: 65px;
     background: #161A26;
@@ -115,24 +118,26 @@ color: #161A26;
 
 #conectardark a{
     text-decoration: none;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-color: #D0D5F2;
-}
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #D0D5F2;
+    }
 
 #cardcarteira{
    
     position: relative;
     float:right;
     margin-top: -462px;
-    margin-right:250px;
-    width: 20%;
-
+   
     
+
+
 }
+
+
 
 /* footer */
 
@@ -263,3 +268,251 @@ color: #D0D5F2;
     }
     
 
+    @media (max-width:768px){
+          
+    #footer-all {
+        height: auto;
+    }
+    
+    #social {
+        display: none;
+    }
+    
+    #social-mob {
+        display: block;
+        display: grid;
+        align-items: center;
+        justify-content: right;
+        margin-top: -300px;
+        margin-right: 20px;
+    }
+    
+    .background-grego {
+        display: none;
+    }
+    
+    
+    .newsletters {
+        position: relative;
+        font-size: 30px;
+        line-height: 48px;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        top: 50px;
+    
+    }
+    
+    .texto-newsletters {
+        font-size: 20px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .button-incricao {
+        display: block;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+    
+    .logo-lilas {
+    
+        display: grid;
+        align-items: center;
+        justify-content: right;
+        margin-top: 100px;
+        margin-right:  20px;
+    }
+    
+    #inicio-home-footer {
+        position: relative;
+        top: -500px;
+        clear: both;
+        padding-top: 50px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #D0D5F2;
+    }
+    
+    .button-meta {
+        width: 147.58px;
+        height: 48.12px;
+        border: 1px solid #D0D5F2;
+        border-radius: 20px;
+        background-color: #161A26;
+        position: relative;
+        display: block;
+        margin: auto;
+        clear: both;
+        top: 10;
+    }
+    
+        #cardcarteira{
+            display: none;
+        }
+
+        #avisocarteira{
+            width:80%;
+        }
+    } 
+
+
+    @media (max-width:481px) {
+      
+    #footer-all {
+        height: auto;
+    }
+    
+    #social {
+        display: none;
+    }
+    
+    #social-mob {
+        display: block;
+        display: grid;
+        align-items: center;
+        justify-content: right;
+        margin-top: -300px;
+        margin-right: 20px;
+    }
+    
+    .background-grego {
+        display: none;
+    }
+    
+    
+    .newsletters {
+        position: relative;
+        font-size: 30px;
+        line-height: 48px;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        top: 50px;
+    
+    }
+    
+    .texto-newsletters {
+        font-size: 20px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .button-incricao {
+        display: block;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+    
+    .logo-lilas {
+     visibility: hidden;
+    
+    }
+    
+    #inicio-home-footer {
+        position: relative;
+        top: -500px;
+        clear: both;
+        padding-top: 50px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #D0D5F2;
+    }
+    
+    .button-meta {
+        width: 147.58px;
+        height: 48.12px;
+        border: 1px solid #D0D5F2;
+        border-radius: 20px;
+        background-color: #161A26;
+        position: relative;
+        display: block;
+        margin: auto;
+        clear: both;
+        top: 10;
+    }
+    
+    #conectarcarteira{display: none;}
+
+    .aviso{
+        margin: 0;
+        margin:auto;
+        margin-top: 30px;
+   
+    }
+#avisocarteira{
+    width: 100%;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+#avisocarteira p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+    text-align: center;
+}
+
+#conectardark{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+
+
+
+#cardcarteira{
+    display:none
+}
+
+}
+        
