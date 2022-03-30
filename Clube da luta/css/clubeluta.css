@@ -573,7 +573,8 @@ hr {
 
         #hamburger{
                                 border-top: 2px solid;
-                                width: 20px;}
+                                width: 20px;
+                            background-color: #D0D5F2;}
 
         #hamburger::after,
         #hamburger::before{
@@ -692,18 +693,6 @@ hr {
                                 margin-top: 15.7%;
                                 height: auto;}
 
-        #social {
-                                position: relative;
-                                top: -90px;
-                                left: -30px;
-                                display: flex;
-                                float: right;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                margin-left: 10px;}
-
-
         .btn{
                                 align-items: center;
                                 display: flex;
@@ -792,6 +781,16 @@ hr {
                                 justify-content: center;
                                 align-items: center;}
 
+        #social {
+                                position: relative;
+                                top: -90px;
+                                left: -30px;
+                                display: flex;
+                                float: right;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin-left: 10px;}                        
 
     }}
 
@@ -877,25 +876,23 @@ hr {
                                 display: block;
                                 margin: auto;
                                 padding: 0;
-                                width: 100%;
-                                line-height: auto;
-                                font-size: 20px;
-                                padding-top: 50px;}
+                                font-size: 15px;
+                                padding-top: 55px;}
 
         .texto-luta p{
                                 margin-top: -15px;
-                                font-size: 15px;}
+                                font-size: 13px;}
 
         .texto-teste h1{
                                 text-align: center;
-                                font-size: 20px;
+                                font-size: 15px;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
                                 padding-top: 25px;}
 
         .texto-teste p{
-                                font-size: 12px;
+                                font-size: 10px;
                                 margin-top: -45px;
                                 display: flex;
                                 align-items: center;
@@ -903,7 +900,7 @@ hr {
 
         .fight{
                                 text-align: center;
-                                font-size: 20px;
+                                font-size: 15px;
                                 margin-left: -0%;
                                 display:flex;
                                 justify-content: center;
@@ -911,7 +908,7 @@ hr {
 
         .caixa-texto2 h1{
                                 text-align: center;
-                                font-size: 20px;
+                                font-size: 15px;
                                 margin-left: -0%;
                                 display:flex;
                                 justify-content: center;
@@ -919,7 +916,7 @@ hr {
 
         .caixa-texto2 p{
                                 text-align: center;
-                                font-size: 12px;
+                                font-size: 10px;
                                 margin-left: -0%;
                                 display:flex;
                                 justify-content: center;
@@ -927,7 +924,7 @@ hr {
 
         hr{
                                 margin-top: 20px;
-                                height: 5px;
+                                height: 3px;
                                 margin: auto;
                                 margin-left: 30%;
                                 display:flex;
@@ -946,10 +943,12 @@ hr {
                                 align-items: center;}
 
         .texto-poder{
-                                font-size: 20px;
+                                font-size: 15px;
                                 align-items: center;
-                                padding-top:5%;
-                                justify-content: center;}
+                                padding-top:10%;
+                                justify-content: center;
+                                margin-top: 145px;
+                            font-style: ;}
 
         .hr-poder{
                                 width: 50%;
@@ -963,24 +962,26 @@ hr {
                                 display:flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 300px;
+                                width: 280px;
                                 margin-top: 15px;}
 
         #footer-all{
-                                margin-top: 15.7%;
+                                margin-top: 10%;
                                 height: auto;}
 
-        #social {
+       #social {
                                 position: relative;
-                                top: -90px;
-                                left: -30px;
+                                top: 40px;
+                                left: -80px;
                                 display: flex;
                                 float: right;
-                                flex-direction: column;
+                                flex-direction: row;
                                 justify-content: center;
-                                align-items: center;
-                                margin-left: 10px;}
+                                align-items: center;}
 
+        #social img{
+                                width: 50%;
+        }
 
         .btn{
                                 align-items: center;
@@ -1015,19 +1016,23 @@ hr {
                                 margin-top: 20px;}
 
         .button-incricao{
-                                margin-left: 65%;
+                                margin-left: 64%;
                                 text-align: center;
                                 width: 90px;
                                 margin-top: 10px;
                                 align-items: center;
                                 display: flex;
-                                justify-content: center;}                   
+                                justify-content: center;}   
 
         .logo-lilas{
                                 display: grid;
                                 align-items: center;
                                 justify-content: right;
-                                margin-top: 100px;}
+                                margin-top: 10px;
+                                margin-left: 10px;
+                                }
+
+        .logo-lilas img{        width: 70%;}
 
         #inicio-home-footer{
                                 top: -500px;
@@ -1041,12 +1046,15 @@ hr {
                                 align-items: center;}
 
         .button-meta{
+                                visibility: hidden;
+                                position: relative;
+                                top: 90%;
                                 margin-left: 40%;
                                 text-align: center;
                                 width: 90px;
                                 align-items: center;
                                 display: flex;
-                                justify-content: center;}       
+                                justify-content: center;}  
 
         .texto-requisitos h1{
                                 font-size: 20px;
@@ -1075,6 +1083,4 @@ hr {
                                 text-align: center;
                                 justify-content: center;
                                 align-items: center;}
-
-
     }
