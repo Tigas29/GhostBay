@@ -419,7 +419,6 @@ box-shadow: 0px 0px 20px #FFFFFF;
 
 @media only screen and (max-width:480px) {
 
-
     #header img {
         display: block;
     }
@@ -706,10 +705,7 @@ box-shadow: 0px 0px 20px #FFFFFF;
             transform: rotate(-135deg);
             top: -7px;
         }
-
-
-
-
+        
         .titulo-meio {
             font-family: Riviera;
             width: 370.11px;
