@@ -575,8 +575,8 @@ font-size: 15px;
 }
 
 .titulo-meio {
-
-font-size: 25px;
+margin:auto;
+font-size: 15px;
 margin-top: -10px;
 text-align: center;
 
