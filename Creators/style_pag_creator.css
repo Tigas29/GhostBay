@@ -6,6 +6,15 @@
     color: #161A26
 }
 
+body::-webkit-scrollbar {
+    width: 0.5rem;
+    
+    }
+    
+    body::-webkit-scrollbar-thumb {
+    background-color: #161A26;
+    border-radius: 30px;
+    }
 /*dar id para todas as tags*/
 
 @font-face {
